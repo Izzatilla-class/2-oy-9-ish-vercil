@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.continer{
+width: 1191px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.teacher-card{
+    width: 280px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 0.5px linear;
+}
+
+.teacher-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teacher-card:hover{
+    box-shadow: 5px 5px 30px rgb(19, 19, 229);
+}
+
+.teacher-card img{
+    transition: all 0.4s linear;
+}
+
+.teacher-card:hover img{
+    border-radius: 50%;
+    box-shadow: 5px 5px 30px red;
+}
+
+#teacher{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
